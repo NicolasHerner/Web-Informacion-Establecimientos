@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagenes/logo.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="substyle.css">
+    <title>UADER</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+        <a href="index.html">
+            <img src="./imagenes/logo.png" alt="logo">
+        </a>   
+        </div>
+        <nav class="navbar">
+           <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li id="desplegable"><a href="#opciones"  id="biblio">Biblioteca &#129047;</a>
+                    <div id="contenido-desplegable">
+                        <a href="./UADER.html">UADER</a>
+                        <a href="./UNER.html">UNER</a>
+                        <a href="./UTN.html">UTN</a>
+                        <a href="./UCU.html">UCU</a>
+                    </div></li>
+                <li><a href="./index.html#sobre-nosotros">Sobre nosotros</a></li>
+                <li><a href="./index.html#contacto">Contacto</a></li>
+           </ul>
+        </nav>
+    </header>
+    <main>
+        <button onclick="volverArriba()" id="volver-arriba">Volver arriba</button>
+        <div class="container">
+            <div class="info-establecimientos">
+                <div class="wrapper">
+                    <div class="titulo">
+                        <h1>Universidad Autonoma de Entre Rios</h1>
+                        <h1>Facultad de Ciencia y Tecnología</h1>
+                    </div>
+                    <section class="galeria">
+                        <div>
+                            <input type="radio" id="img-1" checked name="gallery" class="galeria-selector" />
+                            <img class="galeria-img" src="./imagenes/GALERIAuader1.jpg">
+                            <label for="img-1" class="galeria-mini">
+                                <img src="./imagenes/GALERIAuader1mini.jpg">
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="img-2" name="gallery" class="galeria-selector">
+                             <img class="galeria-img"
+                                src="./imagenes/GALERIAuader2.jpg" />
+                            <label for="img-2" class="galeria-mini">
+                                <img src="./imagenes/GALERIAuader2mini.jpg" />
+                            </label>
+                        </div>
+                        <div> <input type="radio" id="img-3" name="gallery" class="galeria-selector" />
+                            <img class="galeria-img" src="./imagenes/GALERIAuader3.jpg" />
+                            <label for="img-3" class="galeria-mini">
+                                <img src="./imagenes/GALERIAuader3mini.jpg" />
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="img-4" name="gallery" class="galeria-selector">
+                            <img class="galeria-img"
+                                src="./imagenes/GALERIAuader4.jpg" />
+                            <label for="img-4" class="galeria-mini">
+                                <img src="./imagenes/GALERIAuader4mini.jpg" />
+                            </label>
+                        </div>
+                    </section>
+                    <br>
+                <h2>PROFESORADOS</h2>
+                <div class="establecimiento">
+                    <h3><span> Profesorado en Matemática</span></h3>
+                    <b>Duración: 4 años</b>
+                    <ul>
+                        <li>Planificar, conducir y evaluar los procesos de enseñanza y aprendizaje vinculados a la Matemática en EGB 3, en Polimodal osus equivalentes y en el Nivel Superior.</li>
+                        <li>Asesorar en lo concerniente al proceso de enseñanza y aprendizaje en lo relacionado con el área de conocimiento específico.</li>
+                        <li>Participar en equipos de investigación del área epistemológica</li>
+                        <li>Participar en equipos de investigación interdisciplinaria y educativa</li>
+                    </ul>
+                </div>
+                <a href="http://fcyt.uader.edu.ar/web/oferta/carreras/planprofmatematica">Sitio Web</a>
+                <div class="establecimiento">
+                    <h3><span> Profesorado en Física </span></h3>
+                    <b>Duración: 4 años</b>
+                    <ul>
+                        <li>Planificar, conducir y evaluar los procesos de enseñanza y aprendizaje vinculados a las Ciencias Naturales en EGB 3 y en la Física, en Polimodal o sus equivalentes y en el Nivel Superior Universitario</li>
+                        <li>Asesorar en lo concerniente al proceso de enseñanza y aprendizaje en lo relacionado con el área de conocimiento específico.</li>
+                        <li>Participar en equipos de investigación del área epistemológica</li>
+                        <li>Participar en equipos de investigación interdisciplinario y educativo</li>
+                    </ul>
+                </div>
+                <a href="http://fcyt.uader.edu.ar/web/oferta/carreras/planproffisica">Sitio Web</a>
+                <div class="establecimiento">
+                    <h3><span> Profesorado en Química </span></h3>
+                    <b>Duración: 4 años</b>
+                    <ul>
+                        <li>Planificar, conducir y evaluar los procesos de enseñanza y aprendizaje vinculados a las Ciencias Naturales en EGB 3 y en la Química, en Polimodal osus equivalentes y en el Nivel Superior.</li>
+                        <li>Asesorar en lo concerniente al proceso de enseñanza y aprendizaje en lo relacionado conel área de conocimiento específico.</li>
+                        <li>Participar en equipos de investigación del área epistemológica</li>
+                        <li>Participar en equipos de investigación interdisciplinario y educativo</li>
+                    </ul>
+                </div>
+                <a href="http://fcyt.uader.edu.ar/web/oferta/carreras/planprofquimica">Sitio Web</a>
+                <div class="establecimiento">
+                    <h3><span>Profesorado de Biología</span></h3>
+                    <b>Duración: 4 años</b>
+                    <ul>
+                        <li>Planificar, conducir y evaluar los procesos de enseñanza y aprendizaje vinculados a las Ciencias Naturales en EGB 3 y en la Biología, en Polimodal o sus equivalentes y en el Nivel Superior.</li>
+                        <li>Asesorar en lo concerniente al proceso de enseñanza y aprendizaje en lo relacionado con el área de conocimiento específico.</li>
+                        <li>Participar en equipos de investigación del área epistemológica</li>
+                        <li>Participar en equipos de investigación interdisciplinaria y educativa</li>
+                    </ul>
+                </div>
+                <a href="http://fcyt.uader.edu.ar/web/oferta/carreras/planprofbiologia">Sitio Web</a>
+                <div class="establecimiento">
+                    <h3><span> Lic. en Salud Ambiental</span></h3>
+                    <b>Duración: 5 años</b>
+                    <ul>
+                        <li>abordar integralmente los determinantes de la salud ambiental</li>
+                        <li>generar, programar y/o participar en actividades de investigación en temas de salud ambiental</li>
+                        <li>Desarrollar actividades de educación ambiental y difundir sus principios con el fin de promover ambientes saludables</li>
+                        <li>Integrar, coordinar y/o supervisar equipos interdisciplinarios para la elaboración de estudios ambientales</li>
+                        <li>Programar, ejecutar y/o asesorar en lo concerniente a servicios de atención primaria ambiental</li>
+                        <li>Programar, gestionar, ejecutar y/ evaluar estudios de epidemiología ambiental</li>
+                        <li>Programar, realizar y/o evaluar planes de gestión ambiental ante situaciones de desastres</li>
+                        <li>Proyectora y/o ejecutar planes de manejo ambiental requeridos en proyectos ejecutivos integrales de pliegos para obras civiles e industriales – actividades para las cuales está capacitado de intervenir integrando equipos interdisciplinarios</li>
+                        <li>Integrar, coordinar y/o supervisar equipos que planifiquen, programen, diseñen, gestionen y evalúen los procesos involucrados en los sistemas de manejo y tratamiento de residuos sólidos urbanos, patogénicos e industriales</li>
+                        <li>Integrar, coordinar y/o supervisar equipos que planifiquen, programen, diseñen, gestionen y evalúen los procesos involucrados en los sistemas de abastecimiento de agua potable, urbanas, periurbanas y rurales</li>
+                        <li>Integrar, coordinar y/o supervisar equipos que planifiquen, programen, diseñen, gestionen y evalúen los procesos involucrados en los sistemas de tratamiento de efluentes cloacales y/o industriales</li>
+                        <li>Integrar equipos que aborden la Atención Primaria de la Salud</li>
+                        <li>Asesorar en la implementación de normas ambientales y sistemas de calidad</li>
+                        <li>Asesorar en lo concerniente al ordenamiento ambiental de territorio</li>
+                        <li>Identificar y proponer soluciones ante situaciones de deterioro de recursos naturales que puedan generar situaciones de riesgo y vulnerabilidad para las comunidades y salud de las personas</li>
+                        <li>Integrar equipos que aborden las problemáticas ambientales de cambio climático</li>
+                        <li>Integrar equipos que promuevan la calidad de vida desde el enfoque de la sostenibilidad ambiental</li>
+                        <li>Participar en la determinación de las condiciones de higiene y seguridad laboral e higiene y seguridad ambiental</li>
+                        <li>Participar o asesorar en la elaboración de normas y legislaciones relativas a la salud ambiental</li>
+                    </ul>
+                </div>
+                <a href="http://www.fcs.uner.edu.ar/web/fcs/index.php/oferta-academica/lic-en-salud-ambiental">Sitio Web</a>
+                <br>
+                <br>
+                <h2>TECNICATURAS</h2>
+                <div class="establecimiento">
+                    <h3><span> Tec. en Automatización y Control de Procesos Industriales </span></h3>
+                    <b>Duración: 3 años</b>
+                    <br>
+                    <ul>
+                        <li>Colaborar en la operación, mantenimiento,  instalación y puesta a punto de sistemas de control de procesos industriales y sistemas de procesamiento de la información, bajo la supervisión del profesional del área.</li>
+                        <li>Participar en el mantenimiento, desarrollo, producción de dispositivos, equipos y sistemas de control de máquinas industriales y de otras aplicaciones de control de procesos industriales, bajo la supervisión del Profesional del área.</li>
+                        <li>Colaborar como Auxiliar de laboratorios de investigación aplicada y desarrollo.</li>
+                        <li>Participar como Auxiliar de proyecto, instalación y puesta a punto de sistemas de control de procesos industriales.</li>
+                        <li>Operar en tareas de supervisión o control de procesos industriales en plantas de proceso continuo y de máquinas industriales en plantas de producción por lotes.</li>
+                        <li>Asistir como operador de sistemas de procesamiento de la información al profesional del área.</li>
+                        <li>Colaborar en la supervisión de líneas de montaje y producción en los sistemas de control de máquinas industriales y sistemas de control de sistemas industriales, bajo la supervisión del profesional del área.</li>
+                    </ul>
+                </div>
+                <a href="http://fcyt.uader.edu.ar/web/oferta/carreras/plantecautomatizacion">Sitio Web</a>
+                <div class="establecimiento">
+                    <h3><span> Analisis de Sistemas </span></h3>
+                    <b>Duración: 3 años</b>
+                    <br>
+                    <ul>
+                        <li>Participar en grupos  liderados por Licenciados/Ingenieros en Sistemas para la realización de  diagnósticos de necesidades de información, diseñote nuevos sistemas y/o modificación  de los existentes en una organización pública o privada.</li>
+                        <li>Participar bajo la  dirección del Licenciado/Ingeniero en Sistemas del elevamiento, especificación,  diseño, implementación, prueba, mantenimiento y control de calidad de sistemas  de información.</li>
+                        <li>Realizar la codificación de  rutinas de software, según las especificaciones elaboradas en la fase de  diseño.</li>
+                        <li>Documentar y actualizar la  carpeta de sistemas y los manuales conexos.</li>
+                        <li>Participar de los estudios  de factibilidad y/o referentes a la configuración y demensionamiento de los  sistemas de procesamiento de información.</li>
+                        <li>Realizar la capacitación al  personal que utiliza los sistemas.</li>
+                        <li>Asistir al  Licenciado/Ingeniero en Sistemas en el análisis y evaluación de proyectos de  especificación, diseño, implementación, verificación, puesta a punto,  mantenimiento y actualización de sistemas de procesamiento de datos.</li>
+                    </ul>
+                </div>
+                <a href="http://fcyt.uader.edu.ar/web/oferta/carreras/planas">Sitio Web</a>
+                <br>
+                <br>
+                <h2>LICENCIATURAS</h2>
+                <div class="establecimiento">
+                    <h3><span> Licenciatura en Sistemas de Información </span></h3>
+                    <b>Duración: 5 años</b>
+                    <br>
+                    <ul>
+                        <li>Planificar, dirigir, realizar y/o evaluar proyectos de relevamiento de problemas del mundo real.  Especificación formal, diseño, implementación, prueba, verificación, validación, mantenimiento y  control de calidad de sistemas de software que se ejecuten sobre sistemas de procesamiento de  datos.</li>
+                        <li>Organizar, dirigir y controlar las áreas informáticas de las organizaciones, seleccionando y  capacitando al personal técnico de los mismos.</li>
+                        <li>Dirigir el relevamiento y análisis de los procesos funcionales de una Organización, con la finalidad de dirigir proyectos de diseño de Sistemas de Información asociados, así como los  Sistemas de Software que hagan a su funcionamiento. Determinar, regular y administrar las pautas  operativas y reglas  de control que hacen al funcionamiento de las áreas  informáticas de las empresas y organizaciones.</li>
+                        <li>Entender, planificar &nbsp;y/o &nbsp;participar de &nbsp;los  &nbsp;estudios técnicos-económicos de  &nbsp;factibilidad  &nbsp;y/o  referentes a la configuración y dimensionamiento de sistemas de procesamiento de información.  Supervisar la implantación de los sistemas de información y organizar y capacitar al personal  afectado por dichos sistemas.</li>
+                        <li>Establecer métricas y normas de calidad y seguridad de software, controlando las mismas a fin de tener un producto industrial que respete las normas nacionales e internacionales. Control de la  especificación &nbsp;formal &nbsp;del  &nbsp;producto, &nbsp;del &nbsp;proceso &nbsp;de &nbsp;diseño,  &nbsp;desarrollo, &nbsp;implementación  &nbsp;y  mantenimiento. Establecimiento de métricas de validación y certificación de calidad.</li>
+                        <li>Planificar, dirigir, &nbsp;realizar &nbsp;y/o &nbsp;evaluar &nbsp;los &nbsp;sistemas &nbsp;de &nbsp;seguridad en  &nbsp;el  &nbsp;almacenamiento y  procesamiento de la información. Realizar la especificación, diseño, desarrollo, implementación y  mantenimiento de los componentes de seguridad de información embebidos en los sistemas físicos y en los sistemas de software de aplicación. Establecer y controlar las metodologías de procesamiento de datos orientadas a seguridad, incluyendo data-warehousing.</li>
+                        <li>Efectuar las tareas de Auditoría de los Sistemas Informáticos. Realizar arbitrajes, pericias y tasaciones relacionados con los Sistemas Informáticos.</li>
+                        <li>Planificar, dirigir, realizar y/o evaluar proyectos de sistemas de administración de recursos.  Especificación formal de los mismos, diseño, implementación, prueba, verificación, validación, mantenimiento y control de eficiencia/ calidad de los sistemas de administración  de recursos que  se implanten como software sobre sistemas de procesamiento de datos.</li>
+                        <li>Analizar y evaluar proyectos de especificación, diseño, implementación, verificación, puesta a punto, mantenimiento y actualización de sistemas de procesamiento de datos.</li>
+                        <li>Analizar y evaluar proyectos de especificación, diseño, implementación, verificación, puesta a punto y mantenimiento de redes de comunicaciones que vinculen sistemas de procesamiento de datos.</li>
+                        <li>Realizar tareas como docente universitario en Informática en todos los niveles, de acuerdo a la jerarquía de título de grado máximo. Realizar tareas de enseñanza de la especialidad en todos los  niveles educativos. Planificar y desarrollar cursos de actualización profesional y capacitación en  general en Sistemas/Sistemas de Información.</li>
+                        <li>Realizar tareas  de investigación científica básica y aplicada en temas de Sistemas de Software y Sistemas  &nbsp;de  &nbsp;Información, &nbsp;participando &nbsp;como  &nbsp;Becario, &nbsp;Docente-Investigador &nbsp;o &nbsp;Investigador  Científico/ Tecnológico. Dirigir Proyectos, Laboratorios, Centros e Institutos de Investigación y Desarrollo en  Informática orientados a las áreas de Sistemas/ Sistemas de  Información.</li>
+                    </ul>
+                </div>
+                <a href="http://fcyt.uader.edu.ar/web/oferta/carreras/planlicsistemas">Sitio Web</a>
+                <div class="establecimiento">
+                    <h3><span> Lic. en Automatización y Control de Procesos Industriales </span></h3>
+                    <b>Duración: 4 años</b>
+                    <br>
+                    <ul>
+                        <li>Colaborar en la evaluación y selección de los equipos de sistemas de automatización de máquinas y sistemas de control de procesos industriales y sistemas de procesamiento de la información.</li>
+                        <li>Colaborar en la dirección y supervisión de proyectos de sistemas de automatización de máquinas y sistemas de control de procesos industriales y sistemas de procesamiento de la información.</li>
+                        <li>Asistir en la realización de arbitrajes, pericias y tasaciones relacionadas con los sistemas de automatización de máquinas y sistemas de control de procesos industriales.</li>
+                        <li>Realizar estudios e investigaciones que conduzcan al diseño, proyecto, construcción de  sistemas de automatización de máquinas y sistemas de control de procesos industriales y sistemas de procesamiento de la información, al mejoramiento en el desarrollo de los mismos, y a nuevas aplicaciones de la tecnología existente.</li>
+                        <li>Organizar el área de mantenimiento, determinar los recursos humanos necesarios en dicha área, y contribuir a su selección y formación.</li>
+                        <li>Colaborar en la planificación y evaluación de los estudios de factibilidad inherentes a todo proyecto de diseño de sistemas de automatización de máquinas y sistemas de control de procesos industriales y sistemas de procesamiento de la información y de modificación o reemplazo de los mismos.</li>
+                    </ul>
+                </div>
+                <a href="http://fcyt.uader.edu.ar/web/oferta/carreras/planlicautomatizacion">Sitio Web</a>
+                <br>
+                <br>
+                <h2>INGENIERIA</h2>
+                <div class="establecimiento">
+                    <h3><span> Ingeniería en Telecomunicaciones </span></h3>
+                    <b>Duración: 3 años</b>
+                    <br>
+                    <p>Planificación, dirección, construcción, instalación, puesta en marcha, operación, ensayos, mediciones, mantenimiento, reparación, modificación, transformación e inspección. Estudios de fiabilidad, control de calidad y certificación. Estudios de factibilidad y evaluación de proyectos de inversión. Diseños de marcos regulatorios en todo lo relativo a:</p>
+                    <ul>
+                        <li>Servicios de Telecomunicación.</li>
+                        <li>Servicios de Radiocomunicaciones.</li>
+                        <li>Sistemas de Telecomunicaciones para Procesos y Automatización Industrial.</li>
+                        <li>Servicios Telemáticos.</li>
+                        <li>Sistemas de Sonido e Imagen.</li>
+                        <li>Sistemas de recepción y transmisión, procesamiento y utilización de señales de comunicación en todas las frecuencias y potencias, audio, video, datos y otros tipos de señales.</li>
+                        <li>Radiodeterminación.</li>
+                        <li>Sistemas de ayuda a la navegación aérea, terrestre y marítima.</li>
+                    </ul>
+                    <br>
+                    <p>Estudios, tareas y asesoramientos relacionados con:</p>
+                    <ul>
+                        <li>Asuntos de Ingeniería Legal, Económica y Financiera relacionados con los incisos anteriores.</li>
+                        <li>Arbitrajes, auditorias, pericias y tasaciones relacionados con los incisos anteriores</li>
+                        <li>Higiene, Seguridad Industrial y contaminación Ambiental relacionados con los incisos anteriores.</li>
+                    </ul>
+                </div>
+                <a href="http://fcyt.uader.edu.ar/web/oferta/carreras/planingtelecomunicaciones">Sitio Web</a>
+            </div>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3365.760994880246!2d-58.237944074312594!3d-32.47908392049275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95afdaffbc4a1ff7%3A0xaaed5580ffd8b6b!2sUADER%20-%20Facultad%20de%20Ciencia%20y%20Tecnolog%C3%ADa!5e0!3m2!1ses-419!2sar!4v1665084738417!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2022 derechos reservados.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

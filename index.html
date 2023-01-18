@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagenes/logo.ico">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Estudiá en Concepción</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <a href="index.html">
+            <img src="./imagenes/logo.png" alt="logo">
+        </a>   
+        </div>
+        <nav class="navbar">
+           <ul>
+                <li><a href="#">Inicio</a></li>
+                <li id="desplegable"><a href="#opciones"  id="biblio">Biblioteca &#129047;</a>
+                    <div id="contenido-desplegable">
+                        <a href="./UADER.html">UADER</a>
+                        <a href="./UNER.html">UNER</a>
+                        <a href="./UTN.html">UTN</a>
+                        <a href="./UCU.html">UCU</a>
+                    </div></li>
+                <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+           </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container-slider">
+            <div class="slider" id="slider">
+                <div class="slider-section"><img src="./imagenes/PLAZA.jpg" alt="" class="slider-img"></div>
+                <div class="slider-section"><img src="./imagenes/UTN.jpg" alt="" class="slider-img"></div>
+                <div class="slider-section"><img src="./imagenes/COLEGIO.png" alt="" class="slider-img"></div>
+                <div class="slider-section"><img src="./imagenes/UNER.png" alt="" class="slider-img"></div>
+                <div class="slider-section"><img src="./imagenes/UCU.jpg" alt="" class="slider-img"></div>
+            </div>
+            <div class="slider-btn slider-btn-derecha" id="btn-derecha" onclick="siguienteImagen()">&#62;</div>
+            <div class="slider-btn slider-btn-izquierda" id="btn-izquierda" onclick="anteriorImagen()">&#60;</div>
+        </div>
+
+
+        <div class="info-main" id="sobre-nosotros">
+            <div class="info-wrapper">
+                <div class="info-texto">
+                    <h1>Todas tus opciones <span> en un solo lugar</span></h1>
+                    <p>Acercamos toda la informacion de las propuestas universitarias que ofrece la ciudad, para que puedas encontrar tu mejor opcion y elegír estudiar en el lugar que mas te guste y se adapte a vos. </p>
+
+                </div>
+                <img src="./imagenes/estudiantes-universitarios (1).jpg" alt="plaza concepcion">
+            </div>
+        </div>
+
+        <div class="opciones" id="opciones">
+            <a href="./UADER.html">
+                <div class="card" id="jardines">
+                    <h3><img src="./imagenes/Proyecto nuevo.png" alt="UADER Logo" style="height: 50px; width: 90px"></h3>
+                    <p></p>
+                    <p>Ciencia y Tecnología</p>
+                </div>
+            </a>
+            <a href="./UNER.html">
+                <div class="card" id="primarias">
+                    <h3><img src="./imagenes/UnerLogo.png" alt="UNER Logo" style="height: 60px; width: 60px"></h3>
+                    <p></p>
+                    <p>Ciencias de la Salud</p>
+                </div>
+            </a>
+            <a href="./UTN.html">
+                <div class="card" id="secundarias">
+                    <h3><img src="./imagenes/UTNLogo.png" alt="UTN Logo" style="height: 60px; width: 60px"></h3>
+                    <p>Ingenierias</p>
+                    <p>Tecnicaturas</p>
+                </div>
+            </a>
+            <a href="./UCU.html">
+            <div class="card" id="universidades">
+                    <h4><img src="./imagenes/UCULogo.png" alt="UCU Logo" style="height: 70px; width: 70px"></h4>
+                    <p>Licenciaturas</p>
+                    <p>Tecnicaturas</p>
+                </div>
+            </a>
+        </div>
+        <div class="contacto-main" id="contacto">
+            <div class="contacto-wrapper">
+                <div class="info-texto">
+                    <h1><span> ¿Tenes dudas? </span></h1>
+                    <p>¡Contactanos! </p>
+                </div>
+                    <a href="mailto: nico15abc@gmail.com">
+                    <div id="email-hover">
+                        <img src="./imagenes/email (1).png" alt="email">
+                        <img src="./imagenes/email.png" alt="" >
+                    </div>
+                    </a>
+                </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; 2022 derechos reservados.</p>
+    </footer>
+    
+    <script src="./slider.js"></script>
+</body>
+</html>

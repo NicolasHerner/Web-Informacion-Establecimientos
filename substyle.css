@@ -1,0 +1,154 @@
+.container {
+    height: fit-content;
+    background-color: #2196F3;
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
+
+.titulo {
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 3rem;
+}
+
+.info-establecimientos {
+    width: fit-content;
+    min-height: 100vh;
+    height: fit-content;
+    background-color: #ffff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.establecimiento {
+    padding: 30px;
+    width: fit-content;
+    max-width: 500px;
+}
+
+.establecimiento p {
+    margin-bottom: 10px;
+}
+
+.info-establecimientos a {
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.info-establecimientos h1  {
+    color: #1976D2;
+}
+
+.info-establecimientos span {
+    color:#1766a7;
+}
+
+.mapa {
+    padding-top: 5rem;
+    margin-left: 50px;
+    justify-self: flex-end;
+}
+
+.pag-constr {
+    width: 100%;
+    text-align: center;
+    line-height: 3rem;
+}
+
+#volver-arriba {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #295c86;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: all 0.3s;
+  }
+  
+  #volver-arriba:hover {
+    background-color: #2196F3;
+    color: black;
+  }
+
+
+.galeria {
+    display: flex;
+    margin: 10px auto;
+    max-width: 600px;
+    position: relative;
+}
+
+.galeria-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.galeria-selector {
+    display: none;
+}
+
+.galeria img {
+    max-width: 100%;
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+.galeria-selector:checked + .galeria-img {
+    opacity: 1;
+}
+
+.galeria-mini {
+    padding-top: 6px;
+    margin: 5px;
+    display: block;
+}
+
+.galeria-mini > img {
+    border-radius: 5%;
+    opacity: 0.7;
+}
+
+.galeria-selector:checked ~ .galeria-mini > img {
+    box-shadow: 0 0 0 3px #295c86;
+    width: 160px;
+    opacity: 1;
+}
+
+@media screen and (min-width: 600px) {
+    .galeria {
+        padding-top: 400px;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    @media screen and (min-width: 400px) {
+        .galeria {
+            padding-top: 70%;
+        }
+    }
+
+
+    iframe {
+        width: min-content;
+    }
+}
+
+
